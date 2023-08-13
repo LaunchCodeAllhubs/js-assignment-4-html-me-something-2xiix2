@@ -56,7 +56,7 @@ body {
     transition: 6s;
 }
 
-.container-plats .box #tubi {
+.container-plats .box #tubi, #max, #disney, #netflix, #hulu{
     position: relative;
     width: 660px;
     height: 300px;
@@ -68,6 +68,8 @@ body {
     margin: 600px 90px;
     transition: 2s;
 }
+
+
 /* .container-plats .box:hover {
     transform: translateY(-30px);
 } */
@@ -100,8 +102,8 @@ img:hover {
 }
 
 .film-covers {
-    /* width: 40dvh;
-    height: 100dvh; */
+    width: 20dvh;
+    height: 25dvh;
 }
 
 #logo {
@@ -148,8 +150,12 @@ a:link {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-span {
+#movie-month-title {
     font-weight: bold
+}
+
+#netflix-my-list {
+    font-style: italic;
 }
 
 .all-photos {
