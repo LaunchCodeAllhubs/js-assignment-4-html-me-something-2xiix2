@@ -14,20 +14,21 @@ header {
 
 body {
     display: flex;
-    align-items: start;
+    align-items: left;
     flex-direction: row;
     flex-grow: 1;
     background: #111;
     justify-content: center;
+    position: sticky;
 }
 
 .container-logo {
     display: flex;
     align-items: center;
-    flex-direction: column ;
-    justify-content: center;
+    flex-direction: row;
     padding: .3mm;
     position: sticky;
+    text-align: center;
     top: 0;
 }
 .container-logo a {
@@ -158,8 +159,16 @@ a:link {
     font-style: italic;
 }
 
+article {
+    display: flex;
+    /* justify-content: center; */
+    /* justify-items: center; */
+    /* align-content: center; */
+    align-items: center;
+}
+
 .all-photos {
-    width: 100dvh;
+    width: 75dvh;
     height: 50dvh;
     justify-content: center;
     justify-items: center;
@@ -172,6 +181,7 @@ a:link {
     height: 50dvh;
     color: aliceblue;
     justify-content: center;
+    justify-items: center;
 }
 
 #foot {
