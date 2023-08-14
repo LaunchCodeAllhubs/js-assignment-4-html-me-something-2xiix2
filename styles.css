@@ -12,6 +12,10 @@ header {
     
 }
 
+#homepage-p-italics {
+    font-style: italic;
+}
+
 body {
     display: flex;
     align-items: left;
